@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+![Screenshot_20260228_121238_Expo Go](https://github.com/user-attachments/assets/8524188f-b6c7-448f-92b5-74237ca6daed)# Welcome to Mobile Application by React Native Expo 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## provice Kamphangpet app
 
-## Get started
+#หน้าจอเริ่มต้นก่อนเข้าสู่หน้าหลักของแอพ
+<img src="https://github.com/user-attachments/assets/534768d7-e104-4a7b-a490-ebe272075e9b" width="200">
 
-1. Install dependencies
+#หน้าหลักของแอพ 
+# - คำขวัญ
+# - ปุ่มกดดูงานประเภณีประจำจังหวัด
+# - ปุ่มกดดูสถานที่แนะนำ
+# - รายละเอียดข้อมูลจังหวัด
+<img src="https://github.com/user-attachments/assets/5776a2c1-3223-4d74-99e0-fca8b36a6389" width="200">
+<img src="https://github.com/user-attachments/assets/a6a9a3e1-5f89-4a7d-82e8-7cf4780cb8ad" width="200">
+<img src="https://github.com/user-attachments/assets/f2cd02a1-c58f-4b2a-ab91-6cdc7c9f0b70" width="200">
 
-   ```bash
-   npm install
-   ```
+#รายละเอียดหน้างานประเภณี
+<img src="https://github.com/user-attachments/assets/00266cf2-e975-4122-8b73-159223e152d6" width="200">
 
-2. Start the app
+#เมื่อกดปุ่มสถานที่แนะนำแล้ว จะขึ้นเป็นรายการสถานที่ตามประเภทสถานที่แนะนำจากหน้าหลัก
+<img src="https://github.com/user-attachments/assets/2d1e5aad-4bdd-4f50-b3b4-66888fb633f4" width="200">
+<img src="https://github.com/user-attachments/assets/bf256821-efd9-4ba9-9a3f-6c30933e7870" width="200">
+<img src="https://github.com/user-attachments/assets/7b72f46a-ca29-4fe2-83b7-1e04e89a287a" width="200">
+<img src="https://github.com/user-attachments/assets/8eef89b7-af8e-46d0-821c-5f98feca8692" width="200">
 
-   ```bash
-   npx expo start
-   ```
+#หน้ารายละเอียดแต่ละสถานที่
+<img src="https://github.com/user-attachments/assets/0f55b407-ab23-49ff-959e-be3704c7db8b" width="200">
+<img src="https://github.com/user-attachments/assets/b8bc0ce6-f37d-4a1a-b789-b13e8b287bdb" width="200">
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+#ตารางdatabase จาก supabase
+<img src="https://github.com/user-attachments/assets/2b1fb40e-cdd3-4462-91b9-0814573eb8c0" width="200">
