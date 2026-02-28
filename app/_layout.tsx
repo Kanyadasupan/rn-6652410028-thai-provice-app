@@ -1,24 +1,56 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { Stack } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
-import 'react-native-reanimated';
-
-import { useColorScheme } from '@/hooks/use-color-scheme';
-
-export const unstable_settings = {
-  anchor: '(tabs)',
-};
+import { Stack, useLocalSearchParams } from "expo-router";
+import {
+  Prompt_400Regular,
+  Prompt_700Bold,
+  useFonts,
+} from "@expo-google-fonts/prompt";
+import * as SplashScreen from "expo-splash-screen";
+import { useEffect } from "react";
+SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
+  const { type, title } = useLocalSearchParams();
+  const [fontsLoaded] = useFonts({
+    Prompt_400Regular,
+    Prompt_700Bold,
+  });
+
+  useEffect(() => {
+    if (fontsLoaded) {
+      SplashScreen.hideAsync();
+    }
+  }, [fontsLoaded]);
+
+  if (!fontsLoaded) {
+    return null;
+  }
 
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
-      </Stack>
-      <StatusBar style="auto" />
-    </ThemeProvider>
+    <Stack>
+      <Stack.Screen name="index" options={{ headerShown: false }} />
+      <Stack.Screen name="home" options={{ headerShown: false }} />
+      <Stack.Screen
+        name="detail"
+        options={{
+          title: "รายละเอียดสถานที่",
+          headerBackButtonDisplayMode: "minimal",
+          headerTitleAlign: "center",
+          headerTitleStyle: { fontFamily: "Prompt_400Regular", color: "#fff" },
+          headerStyle: { backgroundColor: "#ffbf2a" },
+          headerTintColor: "#fff",
+        }}
+      />
+      <Stack.Screen
+        name="category"
+        options={({ route }) => ({
+          title: (route.params as any)?.title || "หมวดหมู่",
+          headerBackButtonDisplayMode: "minimal",
+          headerTitleAlign: "center",
+          headerTitleStyle: { fontFamily: "Prompt_400Regular", color: "#ffffff" },
+          headerStyle: { backgroundColor: "#ffbf2a" },
+          headerTintColor: "#ffffff",
+        })}
+      />
+    </Stack>
   );
 }
