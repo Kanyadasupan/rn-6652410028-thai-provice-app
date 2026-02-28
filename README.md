@@ -32,5 +32,12 @@
 <img src="https://github.com/user-attachments/assets/b8bc0ce6-f37d-4a1a-b789-b13e8b287bdb" width="200">
 <hr />
 
+### ฟังก์ชั่นการทำงานได้
+### - กดปุ่มเบอร์โทรแล้วเด้งไปที่หน้าโทรศัพท์
+### - กดแผนที่แล้วเด้งไปที่googlemap
+<img src="https://github.com/user-attachments/assets/c214adeb-f734-4d1f-9d08-444ba44cfb37" width="200">
+<img src="https://github.com/user-attachments/assets/8bc8a9df-2ec3-4ba9-a0c3-9ce7f838851f" width="200">
+<hr />
+
 ### ตารางdatabase จาก supabase
 <img src="https://github.com/user-attachments/assets/2b1fb40e-cdd3-4462-91b9-0814573eb8c0" width="200">
