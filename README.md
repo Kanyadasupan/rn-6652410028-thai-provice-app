@@ -1,4 +1,4 @@
-![Screenshot_20260228_121238_Expo Go](https://github.com/user-attachments/assets/8524188f-b6c7-448f-92b5-74237ca6daed)# Welcome to Mobile Application by React Native Expo 👋
+### Welcome to Mobile Application by React Native Expo 👋
 
 ## provice Kamphangpet app
 
